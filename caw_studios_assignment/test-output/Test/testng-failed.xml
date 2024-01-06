@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Dynamic table data validation(failed)">
+    <classes>
+      <class name="tests.addDataIntoDynamicTable">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="configDataAndEnv"/>
+          <include name="launchBrowser"/>
+          <include name="addingDataIntoTableAndValidation"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- tests.addDataIntoDynamicTable -->
+    </classes>
+  </test> <!-- Dynamic table data validation(failed) -->
+</suite> <!-- Failed suite [Test] -->
